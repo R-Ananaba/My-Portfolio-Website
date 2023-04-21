@@ -1,0 +1,74 @@
+2......CSS with Vite-----vitejs.dev
+
+after installing the below depencies, run this code on the terminal
+
+npm create vite@latest
+-enter project name
+-vanilla->javascript->CD project name->npm i->run dev->ctrl c (to kill the terminal)->code(space). (to open vscode)
+-to use the new terminal on VS code press ctrl plus backtick (ctrl`) or just select terminal at the top then->arrow nudge atthe left of the terminal select git bash
+->npm run dev (to run the development server)
+
+
+1.....Dependencies:
+
+1.install node.js lts version > nodejs.org
+2.install git and git bash > git-scm.com and click on download for windows,during installation ensure you copy the installation path- open it-	
+3.install new window terminal > open microsoft store and search for windows terminal and install 
+click on arrow nudge top right-settings-Add new profile-new empty profile-change name to 'git bash'
+-command line tab:browse,assuming this is the copied git path:localdisk-program files-git folder-bin folder-bash-change default directory to whatever i.e desktop
+-icon-browse-back to the git folder-mingw64-share-git and select the git for windows icon
+-Startup (top right)-change default profile to 'git bash' and close everything.
+-click on start and you will see the new Terminal app added-OPEN IT-if your terminal is having MINGW64 then everything is ok. 
+you can close the terminal for now.
+
+we make use of a tool like vite to automatically set up our environment
+
+3.....Modern normalization --Git Hub
+-serach for mordern normalizatio->https://github.com/sindresorhus/modern-normalize
+click on mordern-normalise.css->raw-> then copy->create modern-normalze.css file in style folder in vscode and paste the copied file-import in main.js file
+-
+
+fontshare.com
+-search for general Sans->click on the general sans-select regular,medium,semi medium and bold->style selected-use->proceed->copy link tag->paste in index.html head
+-copy font family-goto style.css and paste in body tag
+-to pick colors->tailwindcss.com->docs->customization->color->click to copy the color slate and paste in your css style
+-to get a very dark slate if last slate not dark enough, copy the darkest slate, search color converter on google->w3cshools->paste the color->use this color in color picker 
+and select your dark shade
+
+heroicons.com
+-search for the sun icon
+-copy the svg
+-paste in between a button element
+-in the svg remove the class/style
+-also do samething for menu bars but select solid b4 copying
+for adding emojis go to google and search for i.e. thumbs up unicode
+
+*components of a website
+<header>
+<nav></nav>
+</header>
+
+<main>
+<sections></sections>
+<sections></sections>
+<sections></sections>
+</main>
+
+<footer>
+<sections></sections>
+<footer>
+
+My WEB-APPROACH
+-Build component by component
+-Each component should be built with desktop view
+-Before building the next component,apply all corresponding media querries to the component
+-On the original desktop component, reduce the size of the elements below the smallest 
+ media querry specification if neccsary to suite device smaller than the smallest query media used
+-Follow the above steps for successive components 
+
+APPROACH SUMMARY: Build with desktop view, transfer to respective media query to adjust, go back
+to desktop view and reduce elements sizes below min query media where neccessary.
+
+
+
+
