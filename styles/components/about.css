@@ -16,8 +16,8 @@
 
 .about__description {
     max-width: 60ch;
-    font-size: var(--size-sm);
-    color: var(--clr-slate400);
+    font-size: var(--size-xs);
+    color: var(--clr-slate600);
 }
 
 .about__hr {
@@ -38,8 +38,8 @@
 }
 
 .about__list {
-    font-size: var(--size-sm);
-    color: var(--clr-slate400); 
+    font-size: var(--size-xs);
+    color: var(--clr-slate600); 
     list-style-type: '\2714';
 }
 
