@@ -167,7 +167,7 @@
 }
 
 /* xl */
-@media (min-width: 1280pxpx) {
+@media (min-width: 1280px) {
     .featurd__subtitle {
         font-size: var(--size-2xl);
     }

@@ -235,7 +235,7 @@
 }
 
 /* xl */
-@media (min-width: 1280pxpx) {
+@media (min-width: 1280px) {
     .work__title {
         font-size: var(--size-5xl) ;
     }
