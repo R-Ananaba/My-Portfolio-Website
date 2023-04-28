@@ -69,6 +69,8 @@ My WEB-APPROACH
 APPROACH SUMMARY: Build with desktop view, transfer to respective media query to adjust, go back
 to desktop view and reduce elements sizes below min query media where neccessary.
 
+*include description and keywords meta tags at the head for SEO purposes
 
+*to get more meta tagss, on google, search for css tricks essential meta tags for social media
 
 
